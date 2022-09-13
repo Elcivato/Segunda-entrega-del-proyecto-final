@@ -6,8 +6,8 @@
 
 header {
     display: flex;
-    background: rgb(29,61,23);
-    background: linear-gradient(90deg, rgba(29,61,23,1) 0%, rgba(29,22,47,1) 36%, rgba(84,23,30,1) 100%);
+    background: rgb(34,14,19);
+    background: linear-gradient(90deg, rgba(34,14,19,1) 0%, rgba(21,16,31,1) 30%, rgba(42,11,15,1) 93%);   
     color: white;
     font-style: italic;
     flex-direction: row;
@@ -16,8 +16,8 @@ header {
 }
 
 body {
-    background: rgb(29,61,23);
-    background: linear-gradient(90deg, rgba(29,61,23,1) 0%, rgba(29,22,47,1) 36%, rgba(84,23,30,1) 100%);
+    background: rgb(34,14,19);
+    background: linear-gradient(90deg, rgba(34,14,19,1) 0%, rgba(21,16,31,1) 30%, rgba(42,11,15,1) 93%);
     z-index: 1;
 }
 
@@ -83,6 +83,10 @@ footer {
 
 .burguer_product {
     display: flex;
+    width: 98vw;
+    border-style: solid;
+    border-radius: 30px;
+    overflow: hidden;
     margin-top: 200px;
     color: white;
 }
@@ -93,8 +97,9 @@ footer {
 
 .burguer_product_description {
     display: inline-block;
-    margin-top: 50px;
+    margin-top: 40px;
     padding: 50px 70px;
+    font-family: 'Oswald', sans-serif;
 }
 
 .burguer_product_btn {
@@ -102,11 +107,215 @@ footer {
     font-size: 30px;
     text-decoration: none;
     border-radius: 20px;
-    margin: 120px 250px;
+    margin: 80px 250px;
     padding: 30px 70px;
     text-shadow: 0 1.5px 0 rgba(255,255,255,0.3);
     box-shadow:0 10px 10px rgba(0,0,0,1);
 }
+
+.burguer_product_btn:hover {
+    background-color: rgb(27, 119, 27);
+}
+
+.burguer_product_btn:active {
+    color: black;
+    text-shadow: 0 1.5px 0 rgba(0,0,0,0.3);
+    background-color: rgb(22, 75, 22);
+}
+
+.btn-color {
+    color: white;
+    background-color: green;
+}
+
+.pizza_product {
+    display: flex;
+    width: 98vw;
+    border-style: solid;
+    border-radius: 30px;
+    overflow: hidden;
+    margin-top: 200px;
+    color: white;
+}
+
+.pizza_product_photo {
+    height: 500px;
+}
+
+.pizza_product_description {
+    display: inline-block;
+    margin-top: 40px;
+    padding: 50px 70px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.pizza_product_btn {
+    display: inline-block;
+    font-size: 30px;
+    text-decoration: none;
+    border-radius: 20px;
+    margin: 80px 250px;
+    padding: 30px 70px;
+    text-shadow: 0 1.5px 0 rgba(255,255,255,0.3);
+    box-shadow:0 10px 10px rgba(0,0,0,1);
+}
+
+.pizza_product_btn:hover {
+    background-color: rgb(27, 119, 27);
+}
+
+.pizza_product_btn:active {
+    color: black;
+    text-shadow: 0 1.5px 0 rgba(0,0,0,0.3);
+    background-color: rgb(22, 75, 22);
+}
+
+.btn-color {
+    color: white;
+    background-color: green;
+}
+
+.salad_product {
+    display: flex;
+    width: 98vw;
+    border-style: solid;
+    border-radius: 30px;
+    overflow: hidden;
+    margin-top: 200px;
+    color: white;
+}
+
+.salad_product_photo {
+    height: 500px;
+}
+
+.salad_product_description {
+    display: inline-block;
+    margin-top: 40px;
+    padding: 50px 30px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.salad_product_btn {
+    display: inline-block;
+    font-size: 30px;
+    width: 360px;
+    text-decoration: none;
+    border-radius: 20px;
+    margin: 80px 250px;
+    padding: 35px 100px;
+    text-shadow: 0 1.5px 0 rgba(255,255,255,0.3);
+    box-shadow:0 10px 10px rgba(0,0,0,1);
+}
+
+.salad_product_btn:hover {
+    background-color: rgb(27, 119, 27);
+}
+
+.salad_product_btn:active {
+    color: black;
+    text-shadow: 0 1.5px 0 rgba(0,0,0,0.3);
+    background-color: rgb(22, 75, 22);
+}
+
+.btn-color {
+    color: white;
+    background-color: green;
+}
+
+.sandwich_product {
+    display: flex;
+    width: 98vw;
+    border-style: solid;
+    border-radius: 30px;
+    overflow: hidden;
+    margin-top: 200px;
+    color: white;
+}
+
+.sandwich_product_photo {
+    height: 500px;
+}
+
+.sandwich_product_description {
+    display: inline-block;
+    margin-top: 40px;
+    padding: 50px 35px;
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+.sandwich_product_btn {
+    display: inline-block;
+    font-size: 30px;
+    width: 360px;
+    text-decoration: none;
+    border-radius: 20px;
+    margin: 80px 250px;
+    padding: 35px 100px;
+    text-shadow: 0 1.5px 0 rgba(255,255,255,0.3);
+    box-shadow:0 10px 10px rgba(0,0,0,1);
+}
+
+.sandwich_product_btn:hover {
+    background-color: rgb(27, 119, 27);
+}
+
+.sandwich_product_btn:active {
+    color: black;
+    text-shadow: 0 1.5px 0 rgba(0,0,0,0.3);
+    background-color: rgb(22, 75, 22);
+}
+
+.btn-color {
+    color: white;
+    background-color: green;
+}
+
+.hotdog_product {
+    display: flex;
+    width: 98vw;
+    border-style: solid;
+    border-radius: 30px;
+    overflow: hidden;
+    margin-top: 200px;
+    color: white;
+}
+
+.hotdog_product_photo {
+    height: 500px;
+}
+
+.hotdog_product_description {
+    display: inline-block;
+    margin-top: 40px;
+    padding: 50px 35px;
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+.hotdog_product_btn {
+    display: inline-block;
+    font-size: 30px;
+    width: 360px;
+    text-decoration: none;
+    border-radius: 20px;
+    margin: 80px 250px;
+    padding: 35px 100px;
+    text-shadow: 0 1.5px 0 rgba(255,255,255,0.3);
+    box-shadow:0 10px 10px rgba(0,0,0,1);
+}
+
+.hotdog_product_btn:hover {
+    background-color: rgb(27, 119, 27);
+}
+
+.hotdog_product_btn:active {
+    color: black;
+    text-shadow: 0 1.5px 0 rgba(0,0,0,0.3);
+    background-color: rgb(22, 75, 22);
+}
+
 .btn-color {
     color: white;
     background-color: green;
