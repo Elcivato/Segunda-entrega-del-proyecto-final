@@ -83,6 +83,7 @@ footer {
 
 .burguer_product {
     display: flex;
+    align-items:flex-end ;
     width: 98vw;
     border-style: solid;
     border-radius: 30px;
@@ -92,6 +93,8 @@ footer {
 }
 
 .burguer_product_photo {
+    display: flex;
+    align-items: flex-end;
     height: 500px;
 }
 
@@ -130,6 +133,7 @@ footer {
 
 .pizza_product {
     display: flex;
+    flex-direction: row-reverse;
     width: 98vw;
     border-style: solid;
     border-radius: 30px;
@@ -225,6 +229,7 @@ footer {
 
 .sandwich_product {
     display: flex;
+    flex-direction: row-reverse;
     width: 98vw;
     border-style: solid;
     border-radius: 30px;
