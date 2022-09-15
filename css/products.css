@@ -93,13 +93,13 @@ footer {
 }
 
 .burguer_product_photo {
-    display: flex;
-    align-items: flex-end;
     height: 500px;
+    width: 650px;
 }
 
 .burguer_product_description {
     display: inline-block;
+    padding: 1rem;
     margin-top: 40px;
     padding: 50px 70px;
     font-family: 'Oswald', sans-serif;
@@ -144,10 +144,12 @@ footer {
 
 .pizza_product_photo {
     height: 500px;
+    width: 650px;
 }
 
 .pizza_product_description {
     display: inline-block;
+    padding: 1rem;
     margin-top: 40px;
     padding: 50px 70px;
     font-family: 'Oswald', sans-serif;
@@ -191,10 +193,12 @@ footer {
 
 .salad_product_photo {
     height: 500px;
+    width: 650px;
 }
 
 .salad_product_description {
     display: inline-block;
+    padding: 1rem;
     margin-top: 40px;
     padding: 50px 30px;
     font-family: 'Oswald', sans-serif;
@@ -240,12 +244,13 @@ footer {
 
 .sandwich_product_photo {
     height: 500px;
+    width:650px;
 }
 
 .sandwich_product_description {
     display: inline-block;
     margin-top: 40px;
-    padding: 50px 35px;
+    padding: 50px 25px;
     font-family: 'Oswald', sans-serif;
     
 }
@@ -289,10 +294,12 @@ footer {
 
 .hotdog_product_photo {
     height: 500px;
+    width: 650px;
 }
 
 .hotdog_product_description {
     display: inline-block;
+    padding: 1rem;
     margin-top: 40px;
     padding: 50px 35px;
     font-family: 'Oswald', sans-serif;
